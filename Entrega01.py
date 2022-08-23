@@ -1,3 +1,3 @@
 import pandas as pd
-df=pd.read_csv('calles_de_medellin_con_acoso.csv')
-df.sample(10)
+df=pd.read_csv('calles_de_medellin_con_acoso.csv', delimiter = ';')
+print(df)
